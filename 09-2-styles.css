@@ -1,0 +1,14 @@
+div#top {
+  color: red;
+}
+div#middle {
+  color: green;
+}
+div#bottom {
+  color: blue;
+}
+
+span.name {
+  font-weight: bold;
+  color: pink;
+}

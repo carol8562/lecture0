@@ -1,0 +1,15 @@
+h1 {
+   color:#843546;
+   text-align:center;
+}
+
+p {
+  color: green;
+}
+
+p:first-of-type {
+  color: red;
+}
+p:nth-of-type(2) {
+  color: blue;
+}

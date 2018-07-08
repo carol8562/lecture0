@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight:bold;
+}
+div {
+  background-color: teal;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding: 15px;
+}
+h1 {
+   color:#843546;
+   text-align:center;
+   display: block;
+   padding: 10px;
+   background-color: aqua;
+   margin: 0;
+   font-size: 90%;
+}
+
+p {
+  color: green;
+  background-color: red;
+  padding: 30px;
+  border: 5px solid blue;
+  margin: 0;
+  font-weight: normal;
+}
+
+p:first-of-type {
+  font-size: 80%;
+  color: red;
+  background-color: green;
+  border-color: orange;
+  border-style: dashed;
+}
+p:nth-of-type(2) {
+  font-size: 120%;
+  color: blue;
+  background-color: yellow;
+  border-color: red;
+  border-width: 3px;
+}
